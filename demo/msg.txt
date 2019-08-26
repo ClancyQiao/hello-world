@@ -1,0 +1,8 @@
+$ ls
+msg.txt site.conf
+$ cat site.conf
+H:.
+/:LiLei:ILoveHanMeimei
+$ cat msg.txt
+We all know it!
+$ busybox httpd -c site.conf -p 8080 -f
